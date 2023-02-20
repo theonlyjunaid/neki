@@ -9,7 +9,7 @@ const Hero = () => {
                   <img
                       className="object-cover object-center rounded"
                       alt="hero"
-                      src="https://dummyimage.com/720x600"
+                      src="https://media.istockphoto.com/id/1178491739/vector/cardboard-box-with-books-for-donations-charity-concept-hand-giving-a-book.jpg?s=612x612&w=0&k=20&c=uY2Tj6sCiIQiBr25br7HtXhFWFXXmEJHXdQpE0lN9ec="
                   />
               </div>
               <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

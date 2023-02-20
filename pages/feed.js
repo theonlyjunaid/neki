@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 const feed = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
   const [message, setMessage] = useState('')
   const [category, setCategory] = useState('')
   const [pickup, setPickup] = useState('')
@@ -32,6 +33,17 @@ const feed = () => {
               className='border rounded-md border-gray-300 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-base px-4 py-2'
             />
           </div>
+          <div className='flex flex-col w-full p-2'>
+            <label className='text-gray-700'>Phone</label>
+            <input
+
+              type='number'
+              onChange={(e) => setPhone(e.target.value)}
+              className='border rounded-md border-gray-300 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-base px-4 py-2'
+            />
+          </div>
+
+
 
           <div className='flex flex-col w-full p-2'>
             <label className=''>
@@ -40,6 +52,9 @@ const feed = () => {
             <select className='bg-white p-2 border rounded-md border-gray-300 focus:border-blue-500'
             onChange={(e) => setCategory(e.target.value)}
             >
+             < option value="select">
+Select
+  </option>
   <option value="book">
 Books
   </option>
