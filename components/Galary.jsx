@@ -2,16 +2,16 @@ import React from 'react'
 
 const Galary = () => {
   return (
-<section className="text-gray-600 body-font">
+<section className="text-gray-600 body-font"
+id='gallery'
+>
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="flex w-full mb-20 flex-wrap">
       <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
-        Master Cleanse Reliac Heirloom
+        The Beauty of Sharing and Caring
       </h1>
       <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-        Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-        gentrify, subway tile poke farm-to-table. Franzen you probably haven't
-        heard of them man bun deep jianbing selfies heirloom.
+        The beauty of sharing and caring is that it is not just about giving. It is also about receiving. It is about the joy of giving and the joy of receiving. It is about the joy of sharing and the joy of caring. It is abo
       </p>
     </div>
     <div className="flex flex-wrap md:-m-2 -m-1">

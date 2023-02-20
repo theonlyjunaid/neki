@@ -9,11 +9,14 @@ const Navbar = () => {
                  
                   <span className="ml-3 text-xl">E-neki ki deewar</span>
               </Link>
-              <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                  {/* <a className="mr-5 hover:text-gray-900">First Link</a> */}
-                  <a className="mr-5 hover:text-gray-900">About us</a>
-                  <a className="mr-5 hover:text-gray-900">Contact us</a>
-                  {/* <a className="mr-5 hover:text-gray-900">Fourth Link</a> */}
+              <nav className="md:ml-auto md:mr-10vw text-lg flex flex-wrap items-center gap-5 justify-center">
+
+                    <Link href="/feed"><div className="mr-5 text-blue-500 font-bold hover:text-green-700">Feed</div></Link>
+                    <Link href="/need"><div className="mr-5 hover:text-gray-900">Need</div></Link>
+                    <Link href="#gallery"><div className="mr-5 hover:text-gray-900">Gallery</div></Link>
+                    <Link href="#testimonials"><div className="mr-5 hover:text-gray-900">Testimonials</div></Link>
+                    <Link href="#contact"><div className="mr-5 hover:text-gray-900">Contact</div></Link>
+
               </nav>
             {/* <Link href="/login"><button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
                   Login
