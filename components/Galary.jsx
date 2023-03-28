@@ -20,21 +20,21 @@ id='gallery'
           <img
             alt="gallery"
             className="w-full object-cover h-full object-center block"
-                src="https://www.booksforall.org.in/WhatsApp%20Image%202020-06-28%20at%2018.29.04-1.jpeg"
+                src="/WhatsApp20Image202020-06-2820at2018.29.04-1.jpeg"
           />
         </div>
         <div className="md:p-2 p-1 w-1/2">
           <img
             alt="gallery"
             className="w-full object-cover h-full object-center block"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnkYTTM2kC8jZyhEunDh3DPWSGV8Vypu2Jpg&usqp=CAU"
+                src="/images.jpg"
           />
         </div>
         <div className="md:p-2 p-1 w-full">
           <img
             alt="gallery"
             className="w-full h-full object-cover object-center block"
-                src="https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/115000/115153/image/5d35ba5f8fcd5.jpeg"
+                src="/5d35ba5f8fcd5.jpeg"
           />
         </div>
       </div>
@@ -43,21 +43,21 @@ id='gallery'
           <img
             alt="gallery"
             className="w-full h-full object-cover object-center block"
-                src="https://media.worldnomads.com/responsibletravel/imagereplacements/Whichdonationisbest.png"
+                src="/Whichdonationisbest.png"
           />
         </div>
         <div className="md:p-2 p-1 w-1/2">
           <img
             alt="gallery"
             className="w-full object-cover h-full object-center block"
-                src="https://im.whatshot.in/img/2019/Jun/seams-for-dreams-cropped-1559628507.jpg"
+                src="/seams-for-dreams-cropped-1559628507.jpg"
           />
         </div>
         <div className="md:p-2 p-1 w-1/2">
           <img
             alt="gallery"
             className="w-full object-cover h-full object-center block"
-                src="https://www.thecuriousreader.in/wp-content/uploads/2018/02/1024px-Lao_schoolgirls_reading_books.jpg"
+                src="/1024px-Lao_schoolgirls_reading_books.jpg"
           />
         </div>
       </div>
