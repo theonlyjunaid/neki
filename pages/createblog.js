@@ -31,10 +31,11 @@ const CreateBlog = () => {
 }
             )
         }).then(res => res.json())
-            .then(data => console.log(data))
-            alert('Blog Created')
-
-
+            .then(data =>{ console.log(data)
+                alert('Blog Created')
+            }).catch(err => {console.log(err)
+                alert('Blog not Created')})
+           
     }
     return (
         <div>
