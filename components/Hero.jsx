@@ -16,14 +16,15 @@ const Hero = () => {
               </div>
               <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                   <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-                    We are here to help you
-                      <br className="hidden lg:inline-block" />
-                      You can donate or ask for help
+                      Building a Wall of Goodness, Brick by Brick
+                      {/* <br className="hidden lg:inline-block" />
+                      You can donate or ask for help */}
                   </h1>
-                  <p className="mb-8 leading-relaxed">
-                      Whether you're looking to give back or in need of assistance, there are resources available. Giving to a charity or cause can help those less fortunate, while seeking help is a brave step towards taking care of yourself. Remember, it's okay to ask for help and give help when you can.
-
-                
+                  <p className=" leading-relaxed md:text-lg font-semibold">
+                      Together we can build a wall of goodness - donate or seek help today.
+                  </p>
+                  <p className="mb-8 leading-relaxed md:text-lg ">
+                      A noble initiative aimed at providing basic necessities to individuals or communities that lack access to these resources. The project seeks to bridge the gap between the haves and the have-nots by providing books and clothing to those in need.
                   </p>
                   <div className="flex justify-center">
                    <Link href="/feed"> <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
