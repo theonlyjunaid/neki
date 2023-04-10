@@ -3,7 +3,7 @@ import connectDB from "../../middleware/mongoose";
 
 const handler = async (req, res) => {
  if(req.method === "POST"){
-    const { title, content, slug,image, date, author } = req.body;
+    const { title, content,image, date, author } = req.body;
    
 //     if(!title || !content || !image || !date || !author){
 //         return res.status(422).json({ error: "Please add all the fields" });
@@ -25,7 +25,6 @@ const handler = async (req, res) => {
         content: content,
         image: image,
         date: date,
-        slug: slug,
         author: author,
     });
     await blog.save();
