@@ -20,7 +20,7 @@ const Gal = () => {
                   <div className='hidden md:flex'>
                       <div className='text-2xl md:text-5xl xl:text-4xl font-semibold px-5 md:leading-[90px] md:ml-10 mt-8 md:mt-10'>
 
-                          "Give a little, help a lot - donate to Project Karma and be the change!"
+                          "Give a little, help a lot - donate to Project karuna and be the change!"
                       </div>
 
                   </div>
@@ -28,7 +28,7 @@ const Gal = () => {
                   <div className='md:hidden'>
                       <div className='text-2xl md:text-5xl xl:text-6xl font-semibold px-5 md:leading-[90px] mt-8 md:mt-20'>
 
-                          "Give a little, help a lot - donate to Project Karma and be the change!"
+                          "Give a little, help a lot - donate to Project karuna and be the change!"
                       </div>
 
                   </div>
