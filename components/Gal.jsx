@@ -8,7 +8,7 @@ const Gal = () => {
           </div>
           <div className=" w-full mx-auto  max-w-[1400px]  px-5  py-5  relative  sm:pt-5 md:p-16 ">
               <div className='w-full md:flex gap-10 md:w-[90%]'>
-                  <img src="/hunger.jpeg"  className='shadow-xl w-[350px] md:scale-150 h-auto mx-auto md:ml-20' alt='image' />
+                  <img src="/images/3.jpeg"  className='shadow-xl w-[350px] max-h-[300px] md:scale-150 h-auto mx-auto md:ml-20' alt='image' />
                   <div className=''>
                       <div className='text-2xl md:text-5xl xl:text-4xl font-semibold px-5 md:leading-[90px] md:ml-10 mt-8 md:mt-10'>
                           Almost One out of 4 children in india is underweight due to hunger.   Be a hero for those.
@@ -24,7 +24,7 @@ const Gal = () => {
                       </div>
 
                   </div>
-                  <img src="/booklet.jpeg" className='shadow-xl w-[350px] mx-auto md:ml-20' alt='image' />
+                  <img src="/images/7.jpeg" className='shadow-xl  max-h-[300px]  mx-auto md:ml-20' alt='image' />
                   <div className='md:hidden'>
                       <div className='text-2xl md:text-5xl xl:text-6xl font-semibold px-5 md:leading-[90px] mt-8 md:mt-20'>
 
